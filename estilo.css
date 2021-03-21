@@ -268,67 +268,77 @@ background: #000;
 
 
 @media only screen and (max-width: 1000px) {
- .bienvenidos{
+
+
+
+.encabezado a{
+
+display: none;
+}
+.bienvenidos{
     
     position: relative;
     top: 60px;
-    left: 100px;
-	width: 70%;
-	height: 150px;
-	
-	font-family: 'Josefin Sans', sans-serif;
-	color: #E1422C;
-	font-size: 40px;
+    left: 90px;
+  width: 70%;
+  height: 150px;
+  
+  font-family: 'Josefin Sans', sans-serif;
+  color: #E1422C;
+  font-size: 40px;
 
-	border-bottom: solid #E1422C 5px;
+  border-bottom: solid #E1422C 2px;
 }
 
 .bienvenidos h1
 {
-	position: relative;
-	top: 50px;
-	left: 50px;
-	flex-wrap: wrap;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  flex-wrap: wrap;
 }
 
+.portada2{
+    
+
+    display: flex;
+    position: relative;
+    left: 100px;
+    top:  90px;
+  width: 300px;
+  height: 400px;
+    
 
 
- .portada2 img{
-   margin: 10px ;
+}
+
+.portada2 img{
+  
+
+  margin: 10px ;
   position: relative;
-  right: 50px;
-  width: 200px;
+  right: 75px;
+  width: 300px;
   height: 400px;
 
-  object-fit: cover;	
- }
+  object-fit: cover;
+  }
 
-.encabezado a{
-		display: none;
-
-
-
-
-}
-.contactos{
-
-   display: none;  
-  
-}
 
 .promociones{
     
-   
+    display: flex;
     position: relative;
-    top: 160px;
+    top: 150px;
     left: 100px;
      
-	border-top: solid  #E1422C 5px; 
+  border-top: solid  #E1422C 5px; 
     width: 70%;
-    height: 100px;
-    font-family: 'Josefin Sans', sans-serif;
+    height: 800px;
+  
      
 }
+
 
 .h1-promo
 {
@@ -342,23 +352,26 @@ background: #000;
 
 }
 
- .promociones img
- {
- 
-   position: relative;
-  left:	
+.promociones img
+  {
+   position: relative;  
+   display: inline-block;
+   top: 150px;  
+   right: 96px;
    margin: 10px;
-   height: 400px;
-   width: 400px;
+   width: 600px;
+   height: 650px;
+
   
   object-fit: cover;
   }
- .nosotros{
+
+.nosotros{
 
    width: 70%;
    height: 300px;
    border-top: solid #E1422C 5px;
-   margin-top: 70%;
+   margin-top: 20%;
    margin-left: 5%;
 
 }
@@ -383,5 +396,43 @@ background: #000;
    color: #ffd700;
 
 }
+.mapa {
+
+
+ width: 700px;
+ height: 400px;
+ position: relative;
+ left: 100px;
+ top: 30px;
+ border-top: solid #E1422C 5px;
+ 
+
+}
+.mapa h1{
+  color: #E1422C; 
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+  position: relative;
+  top: 30px;
+
+}
+.mapa h2{
+  color: #E1422C; 
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+  position: absolute;
+  left: 0;
+
+}
+.mapa img {
+
+  position: relative;
+  left: 10px;
+  top: 70px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 }
