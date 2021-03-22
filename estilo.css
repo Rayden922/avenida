@@ -152,6 +152,9 @@ background: #000;
      
 }
 
+ .promociones2 h1{
+  display: none;
+ }
 
 .h1-promo
 {
@@ -357,11 +360,11 @@ display: none;
     
     
     position: relative;
-    top: 1000px;
-    left: 260px;
+    top: 1100px;
+    left: 50px;
      
-  border-top: solid  #E1422C 5px; 
-    width: 70%;
+  border-top: solid  #E1422C 15px; 
+    width: 120%;
     height: 800px;
   
      
@@ -370,7 +373,13 @@ display: none;
 
 .h1-promo
 {
-   display: none;
+    display: block;
+   top: 1600px;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 95px;
+   position: relative;
+   color: #E1422C;
+   left: 250px;
    
 }
 
@@ -378,6 +387,20 @@ display: none;
   {
  display: none;
 }
+
+.promociones2 h1{
+     display: block;
+   top: 260px;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 35px;
+   position: relative;
+   color: #E1422C;
+   left: 250px;
+
+}
+
+
+
 .nosotros{
 
    width: 70%;
@@ -403,7 +426,7 @@ display: none;
  
    padding-top: 30px;
    font-family: 'Josefin Sans', sans-serif;
-   font-size: 50px;
+   font-size: 80px;
    position: relative;
    color: #ffd700;
 
