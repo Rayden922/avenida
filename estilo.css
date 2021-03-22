@@ -270,6 +270,20 @@ background: #000;
 @media only screen and (max-width: 1000px) {
 
 
+.encabezado
+{
+    position: fixed;
+   top: 0px;  
+   margin-left: 14%;
+  width: 70%;
+  height: 100px;
+  background: #ffd700;
+  z-index: 100;
+}
+
+
+
+
 
 .encabezado a{
 
@@ -279,47 +293,61 @@ display: none;
     
     position: relative;
     top: 60px;
-    left: 90px;
-  width: 70%;
+  left: 80px;
+  width: 115%;
   height: 150px;
   
   font-family: 'Josefin Sans', sans-serif;
   color: #E1422C;
   font-size: 40px;
 
-  border-bottom: solid #E1422C 2px;
+  border-bottom: solid #E1422C 7px;
+}
+
+
+.encabezado img
+{
+    
+  position: relative;
+  left: 25%;  
+  width: 400px;
+  height: 100px;
+  object-fit: cover;
 }
 
 .bienvenidos h1
 {
   position: relative;
-  top: 50px;
-  left: 50px;
+  top: 20px;
+  left: 1px;
   flex-wrap: wrap;
+  font-size: 150px;
 }
 
 .portada2{
     
 
-    display: flex;
+    
     position: relative;
-    left: 100px;
+    left: 80px;
     top:  90px;
-  width: 300px;
+  width: 400px;
   height: 400px;
     
 
 
 }
-
+.quitar{
+  display: none;
+}
 .portada2 img{
   
 
   margin: 10px ;
   position: relative;
   right: 75px;
-  width: 300px;
-  height: 400px;
+  width: 410px;
+  height: 1200px;
 
   object-fit: cover;
   }
@@ -327,10 +355,10 @@ display: none;
 
 .promociones{
     
-    display: flex;
+    
     position: relative;
-    top: 150px;
-    left: 100px;
+    top: 1000px;
+    left: 260px;
      
   border-top: solid  #E1422C 5px; 
     width: 70%;
@@ -342,36 +370,20 @@ display: none;
 
 .h1-promo
 {
-   display: block;
-   top: 260px;
-   font-family: 'Josefin Sans', sans-serif;
-   font-size: 35px;
-   position: relative;
-   color: #E1422C;
-   left: 150px;
-
+   display: none;
+   
 }
 
 .promociones img
   {
-   position: relative;  
-   display: inline-block;
-   top: 150px;  
-   right: 96px;
-   margin: 10px;
-   width: 600px;
-   height: 650px;
-
-  
-  object-fit: cover;
-  }
-
+ display: none;
+}
 .nosotros{
 
    width: 70%;
    height: 300px;
    border-top: solid #E1422C 5px;
-   margin-top: 20%;
+   margin-top: 100%;
    margin-left: 5%;
 
 }
@@ -381,7 +393,7 @@ display: none;
 
   color: #E1422C; 
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 40px;
+  font-size: 90px;
   position: relative;
   top: 30px;
 }
@@ -391,11 +403,13 @@ display: none;
  
    padding-top: 30px;
    font-family: 'Josefin Sans', sans-serif;
-   font-size: 30px;
+   font-size: 50px;
    position: relative;
    color: #ffd700;
 
 }
+
+
 .mapa {
 
 
@@ -403,7 +417,7 @@ display: none;
  height: 400px;
  position: relative;
  left: 100px;
- top: 30px;
+ top: 900px;
  border-top: solid #E1422C 5px;
  
 
