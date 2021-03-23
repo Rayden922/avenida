@@ -24,7 +24,7 @@ background: #000;
 	font-size: 30px;
 	position: relative;
 	top: 20px;
-	left: 50px;
+	left: 10px;
 	margin: 20px;
 	text-decoration: none;
 
@@ -181,7 +181,10 @@ background: #000;
   
   object-fit: cover;
   }
+.imagen3{
 
+  display: none;
+}
 .nosotros{
 
    width: 70%;
@@ -311,8 +314,8 @@ display: none;
 .encabezado img
 {
     
-  position: relative;
-  left: 25%;  
+  position: absolute;
+  left: 0%;  
   width: 700px;
   height: 200px;
  
@@ -340,17 +343,15 @@ display: none;
 
 
 }
-.quitar{
-  display: none;
-}
+
 .portada2 img{
   
 
   margin: 10px ;
   position: relative;
   right: 75px;
-  width: 410px;
-  height: 1200px;
+  width: 310px;
+  height: 1300px;
 
   
   }
@@ -403,35 +404,50 @@ display: none;
 .promociones3 
  {
  
-  display: block;
+  display: inline-block;
   position: relative;
   left: 78px;
   top: 880px;
  }
-
+.imagen2
+{
+  position: relative;
+  top: 50px;
+}
 .imagen3
 {
-  display: none;
-  object-fit: contain;
+display: block;
+position: relative;
+top: 760px;
+right: 187px;
+margin: 250px;
+width: 5000px;
+
 }
 
 
 .nosotros{
 
-   width: 70%;
+   width: 120%;
    height: 300px;
-   border-top: solid #E1422C 5px;
-   margin-top: 550%;
+   border-top: solid #E1422C 15px;
+   margin-top: 150%;
    margin-left: 5%;
 
 }
 
+.nosotros img{
+
+  width: 800px;
+  height: 800px;
+
+}
 .nosotros h1{
   
 
   color: #E1422C; 
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 90px;
+  font-size: 110px;
   position: relative;
   top: 30px;
 }
@@ -439,9 +455,9 @@ display: none;
 .nosotros p{
    
  
-   padding-top: 30px;
+   
    font-family: 'Josefin Sans', sans-serif;
-   font-size: 80px;
+   font-size: 90px;
    position: relative;
    color: #ffd700;
 
@@ -451,11 +467,11 @@ display: none;
 .mapa {
 
 
- width: 700px;
+ width: 1000px;
  height: 400px;
  position: relative;
  left: 100px;
- top: 1900px;
+ top: 1500px;
  border-top: solid #E1422C 15px;
  
 
@@ -465,7 +481,7 @@ display: none;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 90px;
   position: relative;
-  top: 30px;
+  bottom: 50%;
 
 }
 .mapa h2{
