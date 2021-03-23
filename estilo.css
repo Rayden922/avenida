@@ -143,16 +143,16 @@ background: #000;
     display: flex;
     position: relative;
     top: 150px;
-    left: 100px;
+    right: 200px;
      
 	border-top: solid  #E1422C 5px; 
-    width: 70%;
+    width: 85%;
     height: 800px;
   
      
 }
 
- .promociones2 h1{
+ .promociones3 {
   display: none;
  }
 
@@ -270,7 +270,7 @@ background: #000;
 
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
 
 
 .encabezado
@@ -352,7 +352,7 @@ display: none;
   width: 410px;
   height: 1200px;
 
-  object-fit: cover;
+  
   }
 
 
@@ -363,7 +363,7 @@ display: none;
     top: 1100px;
     left: 50px;
      
-  border-top: solid  #E1422C 15px; 
+    border-top: solid  #E1422C 15px; 
     width: 120%;
     height: 800px;
   
@@ -373,7 +373,7 @@ display: none;
 
 .h1-promo
 {
-    display: block;
+    
    top: 1600px;
    font-family: 'Josefin Sans', sans-serif;
    font-size: 95px;
@@ -385,7 +385,8 @@ display: none;
 
 .promociones img
   {
- display: none;
+display: none;
+
 }
 
 .promociones2 h1{
@@ -399,6 +400,20 @@ display: none;
 
 }
 
+.promociones3 
+ {
+ 
+  display: block;
+  position: relative;
+  left: 78px;
+  top: 880px;
+ }
+
+.imagen3
+{
+  display: none;
+  object-fit: contain;
+}
 
 
 .nosotros{
@@ -406,7 +421,7 @@ display: none;
    width: 70%;
    height: 300px;
    border-top: solid #E1422C 5px;
-   margin-top: 100%;
+   margin-top: 550%;
    margin-left: 5%;
 
 }
@@ -440,15 +455,15 @@ display: none;
  height: 400px;
  position: relative;
  left: 100px;
- top: 900px;
- border-top: solid #E1422C 5px;
+ top: 1900px;
+ border-top: solid #E1422C 15px;
  
 
 }
 .mapa h1{
   color: #E1422C; 
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 40px;
+  font-size: 90px;
   position: relative;
   top: 30px;
 
@@ -461,15 +476,10 @@ display: none;
   left: 0;
 
 }
-.mapa img {
-
+.mapa iframe{
   position: relative;
-  left: 10px;
-  top: 70px;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  right: 80px;
+  width: 1200px;
+  height: 1000px;
 }
-
-
 }
