@@ -11,22 +11,22 @@ background: #000;
     position: fixed;
    top: 0px;  
     width: 100%;
-	height: 100px;
-	background: #ffd700;
-	z-index: 100;
+  height: 100px;
+  background: #ffd700;
+  z-index: 100;
 }
 
 .encabezado a{
 
-	display: inline-block;
-	font-family: 'Josefin Sans', sans-serif;
-	color: #E1422C;
-	font-size: 30px;
-	position: relative;
-	top: 20px;
-	left: 10px;
-	margin: 20px;
-	text-decoration: none;
+  display: inline-block;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #E1422C;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  margin: 20px;
+  text-decoration: none;
 
 }
 
@@ -34,10 +34,10 @@ background: #000;
 .encabezado img
 {
     
-   	float: left;
-	width: 400px;
-	height: 100px;
-	object-fit: cover;
+    float: left;
+  width: 400px;
+  height: 100px;
+  object-fit: cover;
 }
 
 
@@ -46,22 +46,22 @@ background: #000;
     position: relative;
     top: 60px;
     left: 290px;
-	width: 37%;
-	height: 150px;
-	
-	font-family: 'Josefin Sans', sans-serif;
-	color: #E1422C;
-	font-size: 40px;
+  width: 37%;
+  height: 150px;
+  
+  font-family: 'Josefin Sans', sans-serif;
+  color: #E1422C;
+  font-size: 40px;
 
-	border-bottom: solid #E1422C 2px;
+  border-bottom: solid #E1422C 2px;
 }
 
 .bienvenidos h1
 {
-	position: relative;
-	top: 50px;
-	left: 50px;
-	flex-wrap: wrap;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  flex-wrap: wrap;
 }
 
 .portada2{
@@ -71,8 +71,8 @@ background: #000;
     position: relative;
     left: 130px;
     top:  90px;
-	width: 300px;
-	height: 400px;
+  width: 300px;
+  height: 400px;
     
 
 
@@ -93,20 +93,21 @@ background: #000;
 .contactos{
     
     position: fixed;
-	font-family: 'Josefin Sans', sans-serif;
-	color: #E1422C;
-	width: 300px;
-	height: 200px;
-	
-	margin-left: 1500px; 
-	margin-top: 5px;
-	font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #E1422C;
+  width: 300px;
+  height: 200px;
+  
+  margin-left: 1500px; 
+  margin-top: 5px;
+  font-size: 30px;
+  z-index: 100;
 }
 
 .contactos img {
 
-	width: 60px;
-	height: 60px;
+  width: 60px;
+  height: 60px;
 }
 
 .contactos p{
@@ -125,14 +126,14 @@ background: #000;
 }   
 
 .contactos a{
-	position: relative;
-	bottom: 100px;
+  position: relative;
+  bottom: 100px;
 }
 
 .face{
 
-	position: relative;
-	bottom: 80px;
+  position: relative;
+  bottom: 80px;
 }
 
 
@@ -145,7 +146,7 @@ background: #000;
     top: 150px;
     right: 200px;
      
-	border-top: solid  #E1422C 5px; 
+  border-top: solid  #E1422C 5px; 
     width: 85%;
     height: 800px;
   
@@ -170,9 +171,9 @@ background: #000;
 
 .promociones img
   {
-   position: relative;	
+   position: relative;  
    display: inline-block;
-   top: 150px;	
+   top: 150px;  
    right: 50px;
    margin: 10px;
    width: 600px;
@@ -218,61 +219,299 @@ background: #000;
 
 .nosotros img{
 
-	float: left;
+  float: left;
 
-	width: 200px;
-	height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
-.mapa {
 
 
- width: 1000px;
- height: 400px;
- position: relative;
- left: 100px;
- top: 30px;
- border-top: solid #E1422C 5px;
- 
-
-}
-.mapa h1{
-  color: #E1422C; 
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 40px;
+.menu{
+  
+  width: 100%;
+  height: 1300px;
+  display: flex;
   position: relative;
-  top: 30px;
-
+  top: 100px;
+ 
+ 
+ 
+   
 }
-.mapa h2{
-  color: #E1422C; 
+.menu h1{
+
   font-family: 'Josefin Sans', sans-serif;
+color: #E1422C; 
+position: relative;
+left: 39%;
+font-size: 100px;
+z-index: 50
+}
+.menu p{
+
+
+width: 35%;
+
+font-family: 'Josefin Sans', sans-serif;
+color: #E1422C; 
+position: relative;
+top: 200px;
+right:  13%;
+bottom: 50px;
+font-size: 80px;
+
+
+}
+.clasica{
+  margin: 15px;
+  position: relative;
+  top: 400px;
+  right: 900px;
+  width: 500px;
+  height: 700px;
+ 
+ }
+.clasica img{
+  position: relative;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+}
+.clasica p{
+   position: relative;
+   
+   left: 100px;
+   top: 0;
+   font-size: 20px; 
+   color: #ffd700; 
+}
+.clasica h1{
+  position: relative;
+
   font-size: 40px;
+  color: #064061;
+
+}
+.fungi{
+  margin: 15px;
+  position: relative;
+  top: 400px;
+  right: 900px;
+  width: 500px;
+  height: 700px;
+ 
+ }
+.fungi img{
+  position: relative;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+}
+.fungi p{
+   position: relative;
+   
+   left: 100px;
+   top: 0;
+   font-size: 20px; 
+   color: #ffd700; 
+}
+.fungi h1{
+  position: relative;
+  
+  font-size: 40px;
+  color: #064061;
+
+}
+
+.bacon{
+  margin: 15px;
+  position: relative;
+  top: 400px;
+  right: 900px;
+  width: 500px;
+  height: 700px;
+
+ }
+.bacon img{
+  position: relative;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+}
+.bacon p{
+   position: relative;
+   
+   left: 100px;
+   top: 0;
+   font-size: 20px; 
+   color: #ffd700; 
+}
+.bacon h1{
+  position: relative;
+  
+  font-size: 40px;
+  color: #064061;
+
+}
+.queso{
+  margin: 15px;
+  position: relative;
+  top: 400px;
+  right: 900px;
+  width: 500px;
+  height: 700px;
+ 
+ }
+.queso img{
+  position: relative;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+}
+.queso p{
+   position: relative;
+   
+   left: 100px;
+   top: 0;
+   font-size: 20px; 
+   color: #ffd700; 
+}
+.queso h1{
+  position: relative;
+  
+  font-size: 40px;
+  color: #064061;
+
+}
+.menu2{
+  
+  width: 100%;
+  height: 1300px;
+  display: flex;
   position: absolute;
-  left: 0;
+  border:  10%;
+  
+}
+.bone{
+  margin: 15px;
+  position: relative;
+  
+  right:   50px;
+  bottom: 150px;
+  width: 500px;
+  height: 700px;
+ 
+ }
+.bone img{
+  position: relative;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+}
+.bone p{
+   position: relative;
+   
+   left: 100px;
+   top: 0;
+   font-size: 20px; 
+   color: #ffd700; 
+}
+.bone h1{
+  position: relative;
+  left: 100px;
+  font-size: 40px;
+  color: #064061;
 
 }
-.mapa img {
 
-	position: relative;
-	left: 10px;
-	top: 70px;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+.mar{
+  margin: 15px;
+  position: relative;
+  
+  right:   150px;
+  bottom: 150px;
+  width: 500px;
+  height: 700px;
+ 
+ }
+.mar img{
+  position: relative;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+}
+.mar p{
+   position: relative;
+   
+   left: 100px;
+   top: 0;
+   font-size: 20px; 
+   color: #ffd700; 
+}
+.mar h1{
+  position: relative;
+  left: 100px;
+  font-size: 40px;
+  color: #064061;
+
 }
 
+.bonele{
+  margin: 15px;
+  position: relative;
+  
+  right:   200px;
+  bottom: 150px;
+  width: 500px;
+  height: 700px;
+ 
+ }
+.bonele img{
+  position: relative;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+}
+.bonele p{
+   position: relative;
+   
+   left: 100px;
+   top: 0;
+   font-size: 20px; 
+   color: #ffd700; 
+}
+.bonele h1{
+  position: relative;
+  left: 100px;
+  font-size: 70px;
+  color: #E1422C;
 
+}
+.entrada{
+  margin: 15px;
+  position: relative;
+  
+  right:   1400px;
+  top: 420px;
+  width: 500px;
+  height: 700px;
+}
+.entrada h1{
+  position: relative;
+  left: 100px;
+  font-size: 70px;
+  color: #E1422C;
 
-
-
-
-
-
-
-
-
-
+}
+.entrada p{
+   position: relative;
+   
+   left: 100px;
+   top: 0;
+   font-size: 20px; 
+   color: #ffd700; 
+}
 @media only screen and (max-width: 1200px) {
 
 
@@ -299,7 +538,7 @@ display: none;
     
     position: relative;
     top: 160px;
-  left: 80px;
+  left: 20%;
   width: 115%;
   height: 150px;
   
@@ -307,7 +546,7 @@ display: none;
   color: #E1422C;
   font-size: 40px;
 
-  border-bottom: solid #E1422C 7px;
+  border-bottom: solid #E1422C 17px;
 }
 
 
@@ -464,38 +703,29 @@ width: 5000px;
 }
 
 
-.mapa {
-
-
- width: 1000px;
- height: 400px;
- position: relative;
- left: 100px;
- top: 1500px;
- border-top: solid #E1422C 15px;
+.menu{
+  
+  width: 120%;
+  height: 300px;
+  
+  position: relative;
+  top: 1500px;
+  border-top:  solid #E1422C 15px;
  
-
+   
 }
-.mapa h1{
-  color: #E1422C; 
+.menu h1{
+
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 90px;
-  position: relative;
-  bottom: 50%;
+color: #E1422C; 
+position: relative;
+left: 39%;
+font-size: 150px;
+z-index: 50;
+bottom: 700px;
 
 }
-.mapa h2{
-  color: #E1422C; 
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 40px;
-  position: absolute;
-  left: 0;
 
-}
-.mapa iframe{
-  position: relative;
-  right: 80px;
-  width: 1200px;
-  height: 1000px;
-}
+
+
 }
