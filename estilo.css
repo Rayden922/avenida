@@ -1,7 +1,6 @@
 body{
 
 background: #000;
-    
 
 }
 
@@ -514,7 +513,12 @@ font-size: 80px;
 }
 @media only screen and (max-width: 1200px) {
 
-
+.menu{
+  display: none;
+}
+.menu2{
+  display: none;
+}
 .encabezado
 {
     position: fixed;
@@ -701,31 +705,6 @@ width: 5000px;
    color: #ffd700;
 
 }
-
-
-.menu{
-  
-  width: 120%;
-  height: 300px;
-  
-  position: relative;
-  top: 1500px;
-  border-top:  solid #E1422C 15px;
- 
-   
-}
-.menu h1{
-
-  font-family: 'Josefin Sans', sans-serif;
-color: #E1422C; 
-position: relative;
-left: 39%;
-font-size: 150px;
-z-index: 50;
-bottom: 700px;
-
-}
-
 
 
 }
