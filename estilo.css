@@ -145,7 +145,7 @@ background: #000;
     top: 150px;
     right: 200px;
      
-  border-top: solid  #E1422C 5px; 
+ 
     width: 85%;
     height: 800px;
   
@@ -158,14 +158,16 @@ background: #000;
 
 .h1-promo
 {
+  padding: 30px;
+   width: 1300px;
    display: block;
    top: 260px;
    font-family: 'Josefin Sans', sans-serif;
    font-size: 35px;
    position: relative;
    color: #E1422C;
-   left: 250px;
-
+   left: 50px;
+ border-top: solid  #E1422C 5px; 
 }
 
 .promociones img
@@ -511,7 +513,27 @@ font-size: 80px;
    font-size: 20px; 
    color: #ffd700; 
 }
-@media only screen and (max-width: 1200px) {
+.mapa{
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  top: 1200px;
+  margin: 60px;
+}
+.mapa h1{
+  padding: 20px;
+   width: 950px;
+   border-top:solid #E1422C 5px; 
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 35px;
+   position: relative;
+   color: #E1422C;
+  
+   
+}
+
+
+@media only screen and (max-width: 1100px) {
 
 .menu{
   display: none;
@@ -519,69 +541,111 @@ font-size: 80px;
 .menu2{
   display: none;
 }
+.promociones{
+  display: block;
+  position: relative;
+  left: 80px;
+ 
+  top: 2000px;
+
+}
+.h1-promo{
+position: relative;
+top: 2000px;
+ width: 1000px;
+ border: none;
+ font-size: 120px;
+}
+.promociones img
+  {
+   padding-bottom: 60px; 
+   position: relative;  
+   display: inline-block;
+   top: 150px;  
+   right: 50px;
+   margin: 10px;
+   width: 1150px;
+   height: 1750px;
+
+  
+  object-fit: cover;
+  }
+.nosotros{
+  position: relative;
+  top: 7000px;
+  border: none;
+
+}
+.nosotros p{
+  font-size: 100px;
+  display: inline;
+}
+.nosotros h1{
+display: none;
+}
+.nosotros img{
+  width: 1000px;
+  height: 1000px;
+  float: none;
+}
+.mapa{
+  display: none;
+}
 .encabezado
 {
     position: fixed;
    top: 0px;  
-   margin-left: 0%;
-  width: 100%;
-  height: 200px;
+    width: 100%;
+  height: 300px;
   background: #ffd700;
   z-index: 100;
 }
 
-
-
-
-
 .encabezado a{
 
-display: none;
-}
-.bienvenidos{
-    
-    position: relative;
-    top: 160px;
-  left: 20%;
-  width: 115%;
-  height: 150px;
-  
-  font-family: 'Josefin Sans', sans-serif;
-  color: #E1422C;
-  font-size: 40px;
-
-  border-bottom: solid #E1422C 17px;
+  display: none;
 }
 
 
 .encabezado img
 {
     
-  position: absolute;
-  left: 0%;  
-  width: 700px;
-  height: 200px;
- 
+    float: left;
+  width: 800px;
+  height: 300px;
+  object-fit: cover;
+}
+.bienvenidos{
+    
+    position: relative;
+    top: 190px;
+    left: 0px;
+  width: 37%;
+  height: 150px;
+  
+  font-family: 'Josefin Sans', sans-serif;
+  color: #E1422C;
+  font-size: 77px;
+
+  border-bottom: none;
 }
 
 .bienvenidos h1
 {
   position: relative;
-  top: 20px;
-  left: 1px;
+  top: 150px;
+  left: 50px;
   flex-wrap: wrap;
-  font-size: 150px;
 }
-
 .portada2{
     
 
-    
+    display: flex;
     position: relative;
-    left: 80px;
-    top:  190px;
-  width: 400px;
-  height: 400px;
+    left: 0px;
+    top:  340px;
+  width: 300px;
+  height: 100px;
     
 
 
@@ -592,119 +656,9 @@ display: none;
 
   margin: 10px ;
   position: relative;
-  right: 75px;
-  width: 310px;
-  height: 1300px;
+  right: 20px;
+  width: 300px;
+  height: 1500px;
 
-  
+  object-fit: cover;
   }
-
-
-.promociones{
-    
-    
-    position: relative;
-    top: 1100px;
-    left: 50px;
-     
-    border-top: solid  #E1422C 15px; 
-    width: 120%;
-    height: 800px;
-  
-     
-}
-
-
-.h1-promo
-{
-    
-   top: 1600px;
-   font-family: 'Josefin Sans', sans-serif;
-   font-size: 95px;
-   position: relative;
-   color: #E1422C;
-   left: 250px;
-   
-}
-
-.promociones img
-  {
-display: none;
-
-}
-
-.promociones2 h1{
-     display: block;
-   top: 260px;
-   font-family: 'Josefin Sans', sans-serif;
-   font-size: 35px;
-   position: relative;
-   color: #E1422C;
-   left: 250px;
-
-}
-
-.promociones3 
- {
- 
-  display: inline-block;
-  position: relative;
-  left: 78px;
-  top: 880px;
- }
-.imagen2
-{
-  position: relative;
-  top: 50px;
-}
-.imagen3
-{
-display: block;
-position: relative;
-top: 760px;
-right: 187px;
-margin: 250px;
-width: 5000px;
-
-}
-
-
-.nosotros{
-
-   width: 120%;
-   height: 300px;
-   border-top: solid #E1422C 15px;
-   margin-top: 150%;
-   margin-left: 5%;
-
-}
-
-.nosotros img{
-
-  width: 800px;
-  height: 800px;
-
-}
-.nosotros h1{
-  
-
-  color: #E1422C; 
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 110px;
-  position: relative;
-  top: 30px;
-}
-
-.nosotros p{
-   
- 
-   
-   font-family: 'Josefin Sans', sans-serif;
-   font-size: 90px;
-   position: relative;
-   color: #ffd700;
-
-}
-
-
-}
