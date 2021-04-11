@@ -7,11 +7,15 @@ margin-left: 0;
 
 
 }
-
-.barras{
+#fuera{
   display: none;
 }
-
+.menuresponsive2{
+  display: none;
+}
+.menuresponsive{
+  display: none;
+}
 .encabezado
 {
     position: fixed;
@@ -152,7 +156,7 @@ margin-left: 0;
     top: 150px;
     right: 200px;
      
- 
+
     width: 800px;
     height: 800px;
   
@@ -165,24 +169,25 @@ margin-left: 0;
 
 .h1-promo
 {
+  text-align: center;
   padding: 30px;
    width: 1300px;
    display: block;
    top: 260px;
    font-family: 'Josefin Sans', sans-serif;
-   font-size: 35px;
+   font-size: 85px;
    position: relative;
    color: #E1422C;
    left: 50px;
- border-top: solid  #E1422C 5px; 
+
 }
 
 .promociones img
   {
    position: relative;  
-   display: inline-block;
+  
    top: 150px;  
-   right: 50px;
+   left: 250px;
    margin: 10px;
    width: 600px;
    height: 650px;
@@ -540,22 +545,163 @@ font-size: 80px;
 }
 
 
-@media only screen and (max-width: 1100px) {
 
-.barras{
-  display: flex;
+@media only screen and (max-width: 1100px) {
+.contactos{
+  display: none;
+}
+
+#exit{
+  display: none;
+}
+#fuera{
+  display: block;
+}
+.menuresponsive{
+position: relative;
+top: 10000px;
+width: 1200px;
+height: 5300px;
+
+display: flex;
+}
+.menuresponsive h1{
+  position: relative;
+  left: 30%;
+  bottom: 50px;
+  color: #E1422C;
+  font-size: 150px;
+}
+.menuresponsive h2{
+   color: #E1422C;
+   margin-top: 250px;
+   position: relative;
+   right: 200px;
+  font-size: 100px;
+}
+.burgerm{
+ position: relative;
+ top: 400px;
+ right: 1050px; 
+ width: 1000px;
+ height: 700px;
+ 
+
+
+} 
+.burgerm img{
   width: 100%;
   height: 100%;
   position: relative;
-  top: 100px;
-  left: 500px;
- 
+  bottom: 100px;
+  object-fit: cover;
 }
-.barras img{
+.burgerm p{
+  font-size: 50px;
+  color: #ffd700;
+}
+.burgerm h1{
+  position: relative;
+  left: 0;
+  font-size: 120px;
+  position: relative;
+
+  color: #064
+}
+.fungim{
+ padding-left: 50px; 
+ position: relative;
+ top: 400px;
+ right: 800px; 
+ width: 1300px;
+ height: 700px;
+ 
+
+
+} 
+.fungim img{
   width: 100%;
   height: 100%;
- 
+  position: relative;
+  bottom: 100px;
+  object-fit: cover;
 }
+.fungim p{
+  font-size: 50px;
+  color: #ffd700;
+}
+.fungim h1{
+  position: relative;
+  left: 0;
+  font-size: 120px;
+  position: relative;
+
+  color: #064
+}
+.queso2{
+
+ position: relative;
+ top: 2000px;
+ right: 1800px;
+  
+ width: 1300px;
+ height: 700px;
+ 
+
+
+} 
+.queso2 img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 100px;
+  object-fit: cover;
+}
+.queso2 p{
+  font-size: 50px;
+  color: #ffd700;
+}
+.queso2 h1{
+  position: relative;
+  left: 0;
+  font-size: 120px;
+  position: relative;
+
+  color: #064
+}
+
+.bone2{
+
+ position: relative;
+ top: 2100px;
+ right: 1800px;
+ padding-left: 50px; 
+ width: 500px;
+ height: 700px;
+ 
+
+
+} 
+.bone2 img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 100px;
+  object-fit: cover;
+}
+.bone2 p{
+  font-size: 50px;
+  color: #ffd700;
+}
+.bone2 h1{
+  position: relative;
+  left: 0;
+  font-size: 100px;
+  position: relative;
+
+  color: #064
+}
+
 .menu{
   display: none;
 }
@@ -580,18 +726,11 @@ top: 2000px;
 }
 .promociones img
   {
-   padding-bottom: 60px; 
-   position: relative;  
-   display: inline-block;
-   top: 0px; 
-   bottom: 900px; 
-   right: 50px;
-   margin: 10px;
-   width: 1150px;
-   height: 1750px;
+  position: relative;
 
-  
-  object-fit: cover;
+  left: 1px;
+  width: 140%;
+  height:1700px;
   }
 .nosotros{
   position: relative;
